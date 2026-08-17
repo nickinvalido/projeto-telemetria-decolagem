@@ -1,0 +1,46 @@
+========= CRITERIOS PARA DECOLAGEM =========
+Temperatura interna: 10 a 35 °C
+Temperatura externa: 20 a 50 °C
+Integridade: 0 ou 1
+Nível de energia: mínimo 40%
+Pressão: 1 a 4 bar
+Módulos críticos: 0 ou 1
+===============================================
+========== DIGITE OS VALORES PEDIDOS ==========
+===============================================
+Digite a temperatura interna da nave:
+Digite a temperatura externa da nave:
+Digite a integridade estrutural (0 ou 1):
+Digite o nível de energia (%): 
+Digite a pressão dos tanques (bar): 
+Digite o status dos módulos críticos (1 para OK, 0 para falha): 
+Digite a capacidade total de energia (kWh): 
+Digite a carga atual da bateria (%): 
+Digite o consumo estimado na decolagem (kWh):
+Digite as perdas energéticas (%): 
+
+===== ANÁLISE ENERGÉTICA =====
+Capacidade total: 100.00 kWh
+Carga atual: 80.00%
+Energia disponível inicialmente: 80.00 kWh
+Perdas energéticas: 10.00%
+Energia perdida: 8.00 kWh
+Energia após perdas: 72.00 kWh
+Consumo estimado na decolagem: 20.00 kWh
+Saldo energético após a decolagem: 52.00 kWh
+ANÁLISE: Energia suficiente para a decolagem.
+
+===== RESULTADO DA TELEMETRIA =====
+===================================
+> temperatura interna: 25.0 °C
+> temperatura externa: 30.0 °C
+> integridade: 1
+> nível de energia: 80 %
+> pressão: 2.5 bar
+> módulos críticos: 1
+> capacidade total: 100.0 kWh
+> carga atual: 80.0 %
+> consumo na decolagem: 20.0 kWh
+> perdas energéticas: 10.0 %
+===================================
+RESULTADO FINAL: PRONTO PARA DECOLAGEM

@@ -1,0 +1,66 @@
+PSEUDOCÓDIGO — SISTEMA DE TELEMETRIA
+
+INÍCIO
+
+    Exibir critérios de segurança
+
+    Ler temperatura interna
+    Ler temperatura externa
+    Ler integridade
+    Ler nível de energia
+    Ler pressão
+    Ler status dos módulos críticos
+
+    Ler capacidade total de energia (kWh)
+    Ler carga atual (%)
+    Ler consumo estimado na decolagem (kWh)
+    Ler perdas energéticas (%)
+
+    Criar lista de alertas vazia
+
+    Verificar temperatura interna:
+        SE menor que 10 OU maior que 35
+            adicionar alerta
+        FIMSE
+
+    Verificar temperatura externa:
+        SE menor que 20 OU maior que 50
+            adicionar alerta
+        FIMSE
+
+    SE integridade = 0
+        adicionar alerta
+    FIMSE
+
+    SE nível de energia < 40%
+        adicionar alerta
+    FIMSE
+
+    SE pressão < 1 OU pressão > 4
+        adicionar alerta
+    FIMSE
+
+    SE módulos críticos = 0
+        adicionar alerta
+    FIMSE
+
+    energia_inicial ← capacidade_total × (carga_atual / 100)
+
+    energia_perdida ← energia_inicial × (perdas_energeticas / 100)
+
+    energia_apos_perdas ← energia_inicial - energia_perdida
+
+    saldo_apos_decolagem ← energia_apos_perdas - consumo_decolagem
+
+    SE saldo_apos_decolagem < 0
+        adicionar alerta de energia insuficiente
+    FIMSE
+
+    SE não houver alertas
+        exibir "PRONTO PARA DECOLAGEM"
+    SENÃO
+        exibir "DECOLAGEM ABORTADA"
+        exibir todos os alertas
+    FIMSE
+
+FIM
