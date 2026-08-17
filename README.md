@@ -61,9 +61,6 @@ Resultado esperado: decolagem aprovada.
 
 Resultado esperado: decolagem rejeitada, com vários alertas.
 
-## 9. GitHub
-Depois de criar o repositório público, coloque aqui o link:
-`COLE_AQUI_O_LINK_DO_SEU_REPOSITORIO_GITHUB`
 
-## 10. Observação
-Antes da entrega, substitua os exemplos de prints pelos prints reais da execução do seu código, caso a atividade exija evidência da execução no seu computador.
+## 9. GitHub
+`https://github.com/nickinvalido/projeto-telemetria-decolagem`
