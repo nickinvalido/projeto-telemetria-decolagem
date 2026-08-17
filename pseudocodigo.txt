@@ -1,0 +1,60 @@
+PSEUDOCÓDIGO — SISTEMA DE TELEMETRIA
+
+INÍCIO
+
+    Exibir critérios de segurança
+
+    Ler temperatura interna
+    Ler temperatura externa
+    Ler integridade
+    Ler nível de energia
+    Ler pressão
+    Ler status dos módulos críticos
+
+    Criar lista de alertas vazia
+
+    SE temperatura interna < 10 OU > 35
+        adicionar alerta
+    FIMSE
+
+    SE temperatura externa < 20 OU > 50
+        adicionar alerta
+    FIMSE
+
+    SE integridade = 0
+        adicionar alerta
+    FIMSE
+
+    SE energia < 40
+        adicionar alerta
+    FIMSE
+
+    SE pressão < 1 OU > 4
+        adicionar alerta
+    FIMSE
+
+    SE módulos críticos = 0
+        adicionar alerta
+    FIMSE
+
+    consumo_por_hora ← 10
+    tempo_missao ← 4
+    energia_necessaria ← consumo_por_hora × tempo_missao
+
+    SE energia disponível >= energia necessária
+        calcular margem
+        exibir energia suficiente
+    SENÃO
+        calcular energia faltante
+        exibir energia insuficiente
+        adicionar alerta
+    FIMSE
+
+    SE lista de alertas estiver vazia
+        exibir "DECOLAGEM APROVADA"
+    SENÃO
+        exibir "DECOLAGEM REJEITADA"
+        exibir todos os alertas
+    FIMSE
+
+FIM

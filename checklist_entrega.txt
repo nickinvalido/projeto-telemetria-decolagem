@@ -1,0 +1,15 @@
+CHECKLIST DE ENTREGA
+
+[ ] Relatório em PDF com dados, algoritmo, análise e código
+[ ] Repositório público no GitHub
+[ ] Notebook Python (.ipynb)
+[ ] README.md completo
+[ ] Prints reais da execução
+[ ] Instruções de execução
+[ ] Link do GitHub inserido no README e no PDF, se solicitado
+
+TESTE APROVADO:
+[ ] 25 / 30 / 1 / 80 / 2.5 / 1
+
+TESTE REJEITADO:
+[ ] 5 / 55 / 0 / 30 / 5 / 0
