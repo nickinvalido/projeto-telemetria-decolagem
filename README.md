@@ -1,5 +1,7 @@
 # Sistema de Telemetria para Decolagem
 
+
+
 ## 1. Descrição do projeto
 
 Este projeto simula um sistema de telemetria de uma nave antes da decolagem. O programa recebe dados dos sensores, verifica as faixas de segurança predefinidas, realiza uma análise energética e decide entre **PRONTO PARA DECOLAGEM** e **DECOLAGEM ABORTADA**.
@@ -144,7 +146,7 @@ A pasta `testes/` contém os exemplos de saída. Para a entrega final, recomenda
 
 ## 11. Entregáveis
 
-O projeto foi organizado para atender aos itens indicados na atividade:
+O projeto foi organizado para atender aos itens indicados na atividade acadêmica da FIAP:
 
 - relatório em PDF;
 - repositório público no GitHub;
